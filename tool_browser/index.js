@@ -57,8 +57,8 @@ const {
         ],
       });
 
-      //openALLTool(browser, siteTool, parseToolID);
-     goAnyTool(browser);
+      openALLTool(browser, siteTool, parseToolID);
+     //goAnyTool(browser);
       //goNotPixel(browser);
     }
   } catch (err) {
