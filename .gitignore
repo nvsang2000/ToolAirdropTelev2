@@ -1,0 +1,10 @@
+node_modules/
+package-lock.json
+yarn.lock
+okxracer/
+*data.txt
+*id.txt
+*proxy.txt
+.env
+setup.json
+note.txt

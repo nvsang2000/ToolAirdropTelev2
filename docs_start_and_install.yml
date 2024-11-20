@@ -1,0 +1,24 @@
+# ---Bước 1-----Cập nhập các nội dung đầu tiên-----------#
+open.bat: 
+folderArray=argent babydoge banana" #đổi tên tool có trong file setup.json.
+
+# ----Bước 2----Cài đặt thư viện ban đầu-----------#
+nodejs: npm install
+
+python: pip install -r requirements.txt
+
+
+# ----Bước 3----Khởi chạy tool-----------#
+# gõ lệnh sau vào cmd hoặc bấm vào file.
+window: ./open.bat
+mac,linux: ./open.sh
+
+# --------Đóng tool-----------#
+# gõ lệnh sau vào cmd hoặc bấm vào file.
+./closes.bat
+
+
+# -------update data tự động----#
+cd tool_browser
+
+

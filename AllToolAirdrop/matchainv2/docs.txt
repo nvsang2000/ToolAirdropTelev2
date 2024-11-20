@@ -1,0 +1,28 @@
+Share tool auto mint nft Matchain (yêu cầu ví có fee bnb mạng matchain)
+
+👉 Link MatchQuest : Click
+
+Hướng dẫn: 
+
+YÊU CẦU ĐÃ CÀI NODEJS NHÉ ANH EM
+
+Chạy lệnh sau để cài các module cần thiết
+
+npm install
+
+tạo 4 file sau
+
+data.txt : chứa query_id (lấy luôn data matchain)
+proxy.txt: chứa proxy
+dancay.txt (chứa privatekey ví evm)
+wallet.txt (chứa danh sách ví evm)
+
+Chạy tool bằng lệnh
+
+node mat-nft.js hoặc node mat-nft-proxy.js
+
+Pass giải nén: 2000nft
+
+Anh em premium cho mình xin 1 boosts nhé
+
+🌐Nhóm chat | ⬆️👑 Boost kênh
