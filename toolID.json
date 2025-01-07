@@ -1,0 +1,102 @@
+{
+  "hotwallet": {
+    "id": 6739011720,
+    "name": "hotwallet"
+  },
+  "moonbix": {
+    "id": 7279327591,
+    "name": "moonbix"
+  },
+  "wcoin": {
+    "id": 7125247569,
+    "name": "wcoin"
+  },
+  "frog": {
+    "id": 7483451034,
+    "name": "frog"
+  },
+  "w3bflix": {
+    "id": 6728381731,
+    "name": "w3bflix"
+  },
+  "uxuywallet": {
+    "id": 5974673216,
+    "name": "uxuywallet"
+  },
+  "pineye": {
+    "id": 7456610966,
+    "name": "pineye"
+  },
+  "zoo": {
+    "id": 7943676727,
+    "name": "zoo"
+  },
+  "chatdancay": {
+    "id": 1001400086031,
+    "name": "chatdancay"
+  },
+  "humanity": {
+    "id": "TESTNET",
+    "name": "humanity"
+  },
+  "paws": {
+    "id": 7200992513,
+    "name": "paws"
+  },
+  "midas": {
+    "id": 7150269333,
+    "name": "midas"
+  },
+  "clayton": {
+    "id": 6505754016,
+    "name": "clayton"
+  },
+  "yescoin": {
+    "id": 7083067344,
+    "name": "yescoin"
+  },
+  "blums": {
+    "id": 6865543862,
+    "name": "blums"
+  },
+  "seed": {
+    "id": 6508172553,
+    "name": "seed"
+  },
+  "pinai": {
+    "id": "7512375963",
+    "name": "pinai"
+  },
+  "duckchain": {
+    "id": "7191881685",
+    "name": "duckchain"
+  },
+  "timefarm": {
+    "id": 7297255616,
+    "name": "timefarm"
+  },
+  "coub": {
+    "id": 155217050,
+    "name": "coub"
+  },
+  "babydoge": {
+    "id": 7413313712,
+    "name": "babydoge"
+  },
+  "argent": {
+    "id": 7432775513,
+    "name": "argent"
+  },
+  "birds": {
+    "id": 7477739168,
+    "name": "birds"
+  },
+  "pip": {
+    "id": 7294135785,
+    "name": "pip"
+  },
+  "rating": {
+    "id": 7659288224,
+    "name": "rating"
+  }
+}
