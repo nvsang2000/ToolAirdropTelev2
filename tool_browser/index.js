@@ -51,8 +51,8 @@ const {
         ],
       });
 
-      openALLTool(browser, selectIDs, parseToolID);
-      //goOneTool(browser, parseToolID);
+      //openALLTool(browser, selectIDs, parseToolID);
+      goOneTool(browser, parseToolID);
       //autoChat(browser, parseToolID)
       //openTestnet(browser)
     }
@@ -97,9 +97,10 @@ async function openALLTool(browser, selectIDs, parseToolID) {
 
 async function goOneTool(browser, parseToolID) {
   try {
-    //blums seed yescoin midas paws pineye uxuywallet w3bflix pinai frog
+    //blums seed yescoin midas zoo paws pineye uxuywallet w3bflix pinai frog
     const sites = [
-      "dopee",
+      //"uxuywallet",
+      "zoo",
       //"pineye",
       //"frog"
       // "yescoin",

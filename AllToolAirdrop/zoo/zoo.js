@@ -526,7 +526,7 @@ class ZooAPIClient {
                 return;
             }
 
-            let nextCycleWaitTime = 1440 * 60; // Default wait time in seconds (24 hours)
+            let nextCycleWaitTime = 60 * 60; // Default wait time in seconds (24 hours)
             
             while (true) {
                 let firstAccountFeedTime = null;
@@ -576,7 +576,7 @@ class ZooAPIClient {
 
                                 await this.handleAutoFeed(initData, i);
 
-                                await this.buyOrUpgradeAnimals(initData, i);
+                                //await this.buyOrUpgradeAnimals(initData, i);
 
                                 const dataAfterResult = await this.getUserDataAfter(initData, i);
                                 if (dataAfterResult.success) {
@@ -609,7 +609,7 @@ class ZooAPIClient {
                 }
 
                 if (firstAccountFeedTime) {
-                    nextCycleWaitTime = this.calculateWaitTimeInSeconds(firstAccountFeedTime);
+                    nextCycleWaitTime = 3600
                     const waitMinutes = Math.floor(nextCycleWaitTime / 60);
                     const waitSeconds = nextCycleWaitTime % 60;
                     this.log(`Đợi ${waitMinutes} phút ${waitSeconds} giây cho đến lần cho ăn tiếp theo`, 'info');
