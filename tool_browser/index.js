@@ -51,8 +51,8 @@ const {
         ],
       });
 
-      //openALLTool(browser, selectIDs, parseToolID);
-      goOneTool(browser, parseToolID);
+      openALLTool(browser, selectIDs, parseToolID);
+      //goOneTool(browser, parseToolID);
       //autoChat(browser, parseToolID)
       //openTestnet(browser)
     }
@@ -97,13 +97,14 @@ async function openALLTool(browser, selectIDs, parseToolID) {
 
 async function goOneTool(browser, parseToolID) {
   try {
-    //blums seed yescoin midas paws pineye uxuywallet w3bflix pinai moonbix
+    //blums seed yescoin midas paws pineye uxuywallet w3bflix pinai frog
     const sites = [
-      // "blums",
-      // "seed",
+      "dopee",
+      //"pineye",
+      //"frog"
       // "yescoin",
       // "midas",
-      "hotwallet",
+      // "w3bflix",
     ];
    
     for (const site of sites) {
@@ -124,7 +125,7 @@ async function goOneTool(browser, parseToolID) {
         closeButtons.forEach((button) => button.click());
       });
       await setDelay(4000);
-      playTool(page);
+      await playTool(page);
     }
   } catch (err) {
     console.error("Error in goAnyTool:", err);
