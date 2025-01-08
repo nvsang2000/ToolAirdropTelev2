@@ -97,10 +97,10 @@ async function openALLTool(browser, selectIDs, parseToolID) {
 
 async function goOneTool(browser, parseToolID) {
   try {
-    //blums seed yescoin midas zoo paws pineye uxuywallet w3bflix pinai frog
+    //blums seed wcoin yescoin midas zoo paws pineye uxuywallet w3bflix pinai frog
     const sites = [
       //"uxuywallet",
-      "zoo",
+      "seed",
       //"pineye",
       //"frog"
       // "yescoin",
